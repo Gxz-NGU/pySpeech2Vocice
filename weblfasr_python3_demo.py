@@ -141,7 +141,7 @@ class RequestApi(object):
                     break
                 files = {
                     "filename":sig.getNextSliceId(),
-                   # "filename": self.gene_params(api_upload).get("slice_id"),
+                   # "filename": self.gene_params(api_upload).get("slice_id"), 讯飞平台demo的逻辑错误
                     "content": content
                 }
                 response = self.gene_request(api_upload,
