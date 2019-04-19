@@ -12,5 +12,5 @@ import json
 
 if __name__ == '__main__':
     audio.myRecord()
-    api =KDXFweb.RequestApi(appid="5ca5aed7", secret_key="3dd43f9ed94381bb15509e95210ded9e", upload_file_path=audio.RECORDFILE)
+    api =KDXFweb.RequestApi(appid="your appid", secret_key="your secretary key", upload_file_path=audio.RECORDFILE)
     api.all_api_request()
